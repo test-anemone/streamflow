@@ -1468,6 +1468,7 @@ void free(void* object)
 	/* Someone else owns the pageblock. */
 	else {
 		/*
+		// Lots commented out here.
 		if (remote_cache_total < 1000) {
 			void* head_object = seq_lifo_dequeue(&remote_cache.queue);
 
